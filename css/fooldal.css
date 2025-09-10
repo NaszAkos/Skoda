@@ -1,0 +1,31 @@
+#tortenet{
+    text-align: center;
+}
+
+.szoveg .col-4{
+    padding: 7%;
+    text-align: center;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+p{
+    font-size: 120%;
+}
+
+#ujAutok{
+    text-align: center;
+}
+
+img{
+    width: 90%;
+    float: right;
+}
+
+.szoveg .col-6{
+    padding: 15%;
+    text-align: center;
+    
+}
