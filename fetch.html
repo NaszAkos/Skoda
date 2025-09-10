@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script>
+      fetch('header.html')  // A beilleszteni kívánt HTML fájl URL-je
+        .then(response => response.text())  // A válasz szöveggé alakítása
+        .then(html => {
+          document.getElementById('container').innerHTML = html;  // Beillesztés a container div-be
+        })
+        .catch(error => console.error('Hiba a fetch során:', error));
+    </script>
+</body>
+</html>
