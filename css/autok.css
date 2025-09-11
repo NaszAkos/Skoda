@@ -8,3 +8,25 @@ body{
 .autoNev{
     padding: 5%;
 }
+.adatok{
+    margin-top: 80px;
+}
+.technikAdat{
+    margin-left: 50px;
+}
+.technikAdat p{
+    font-size: 135%;
+}
+.technikAdat h3{
+    font-size: 180%;
+}
+.belsoKep{
+    width: 80%;
+    margin-top: 100px;
+}
+.kulsoKep{
+    margin-top: 300px;
+    margin-left: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
