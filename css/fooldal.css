@@ -1,5 +1,6 @@
 #tortenet{
     text-align: center;
+    margin-top: 100px;
 }
 
 .szoveg .col-4{
@@ -21,7 +22,7 @@ p{
     text-align: center;
 }
 
-img{
+.autok img{
     width: 100%;
     float: right;
     
