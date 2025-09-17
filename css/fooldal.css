@@ -42,3 +42,10 @@ hr{
 .autok{
     text-align: center;
 }
+.autok>.col-4:hover{
+    transform: scale(1.07);
+}
+.autok>.col-4{
+    transition: transform 0.3s;
+    border-radius: 30px;
+}

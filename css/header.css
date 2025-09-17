@@ -23,11 +23,12 @@ li{
     margin-top: 15px;
     margin-inline: 20%;
     list-style-type: none;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;;
     border-radius: 10px;
 }
 li:hover{
     background-color: #A9A9A9;
+    transform: scale(1.07);
 }
 li a{
     color: black;
@@ -51,4 +52,5 @@ ul{
 }
 #fooldalLink:hover{
     background-color: #A9A9A9;
+    transform: scale(1.07);
 }
