@@ -13,7 +13,7 @@
       fetch('header.html')  // A beilleszteni kívánt HTML fájl URL-je
         .then(response => response.text())  // A válasz szöveggé alakítása
         .then(html => {
-          document.getElementById('fejlec').innerHTML = html;  // Beillesztés a container div-be
+          document.getElementById('fejlec').innerHTML = html;  // Beillesztés a fejlec div-be
         })
         .catch(error => console.error('Hiba a fetch során:', error));
     </script>
